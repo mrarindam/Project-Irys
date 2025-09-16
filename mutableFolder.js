@@ -22,7 +22,7 @@ const uploadFolderExample = async () => {
 
     console.log("📂 Uploading folder:", folderPath);
 
-    // Upload পুরো ফোল্ডার
+    // Upload full folder
     const receipt = await irysUploader.uploadFolder(folderPath);
 
     console.log("✅ Folder uploaded!");
